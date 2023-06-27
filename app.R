@@ -15,9 +15,6 @@ load("data_Services.RData") # tab 3 data
 
 
 ui <- fluidPage(title = "UK & India Trade",
-                div(h1(strong("Main Title")),
-                    h4(strong("An interactive data visualization tool to explore trade data related to India and the United Kingdom")), 
-                    style = "max-width: 1400px; justify-content: center !important; margin-left: auto; margin-right: auto;"),
                 div(navbarPage(title = "Navigation",
                                
                                # TAB 1 -----------------------------------------------------------
